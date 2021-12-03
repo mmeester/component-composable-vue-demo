@@ -1,4 +1,5 @@
 <template>
+  <h1>Component - composable demo using Vue-CLI</h1>
   <div class="component__inside">
     <example-component />
   </div>
@@ -13,7 +14,9 @@
   </div>
   
   <div class="information">
-    The repository of this demo can be found on: <a href="https://github.com/mmeester/component-composable-demo">https://github.com/mmeester/component-composable-demo</a><br />
+    The repository of <strong>Vite implementation demo</strong> can be found on: <a href="https://github.com/mmeester/component-composable-demo">https://github.com/mmeester/component-composable-demo</a><br />
+    The repository of <strong>Vue CLI implementation demo</strong> can be found on: <a href="https://github.com/mmeester/component-composable-vue-demo">https://github.com/mmeester/component-composable-vue-demo</a><br />
+    <br />
     The repository of the npm package can be found on: <a href="https://github.com/mmeester/component-composable">https://github.com/mmeester/component-composable</a>
   </div>
 </template>
