@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import { Example } from 'component-composable';
 
-createApp(App).mount('#app')
+const app = createApp(App);
+app.use(Example);
+app.mount('#app');
